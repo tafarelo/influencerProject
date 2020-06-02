@@ -3418,7 +3418,13 @@
 	}
 	.widget_products .woocommerce-Price-amount {
 		font-size:1em!important;
-	}
+    }
+    .chuviha img {
+        display: none;
+    }
+    .main_nav {
+        position: absolute;
+    }
 }
 @media (max-width: 799px) {
     .mfp-figure figcaption {
@@ -3488,11 +3494,6 @@
     }
     .custom_3 .eg-custom-3-element-24-a a {
         display: none;
-    }
-    .chuviha img {
-        height: 761px!important;
-        margin-top: 2em!important;
-        width: 456px!important;
     }
 }
 @media (max-width: 767px) {
@@ -5320,19 +5321,8 @@
     .w479-imt {
         margin-top: 4em;
     }
-    .chuviha img {
-        height: 684px!important;
-        top: -50em!important;
-        width: 408px!important;
-        position: relative;
-    }
 }
 @media (max-width: 359px) {
-    .chuviha img {
-        height: 502px!important;
-        top: -45em!important;
-        width: 299px!important;
-        position: relative;
     }
 	.home1 .main_logo {
 		width: 250px!important;

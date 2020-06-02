@@ -6678,4 +6678,12 @@ iframe[name="google_conversion_frame"] {
 
 .main_logo{
     position: absolute;
+    left: 20%;
+}
+
+.main_nav {
+    position: fixed;
+    z-index: 20000;
+    height: 158px;
+    width: 158px;
 }
