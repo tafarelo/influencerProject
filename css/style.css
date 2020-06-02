@@ -6132,6 +6132,7 @@ ul.instagram-pics li:before {
     padding: 3em 0 2.4em;
 }
 
+
 .footer_wrap aside {
     margin-bottom: 1.6667em;
 }
@@ -6189,6 +6190,9 @@ ul.instagram-pics li:before {
 
 .socials_footer_wrap_inner {
     padding: 1.3em 0;
+    /* display: flex; */
+    /* justify-content: center; */
+    color: white
 }
 
 .socials_footer_wrap_inner .social_icons {
@@ -6257,9 +6261,10 @@ ul.instagram-pics li:before {
 }
 
 .copyright_wrap .column2 {
-    float: left;
-    text-align: left;
     width: 26%;
+    display: flex;
+    flex-flow: column;
+    align-self: center;
 }
 
 .copyright_wrap .copyright_text {
@@ -6657,4 +6662,20 @@ iframe[name="google_conversion_frame"] {
 
 .mlr45 {
     margin: 0 45px;
+}
+
+#sc_content_698 h4 span .span_you {
+    font-family: "caveat";
+    font-size: 2em;
+    color: #42caf3;
+}
+
+.sc_columns {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+.main_logo{
+    position: absolute;
 }
