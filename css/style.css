@@ -6687,3 +6687,100 @@ iframe[name="google_conversion_frame"] {
     height: 158px;
     width: 158px;
 }
+
+@media (max-width: 768px) {
+    .customBannerMobile {
+        display: block;
+        z-index: 200;
+        border: 1px solid red;
+    }
+
+    .tp-parallax-wrap {
+        left: 0 !important;
+        right: 0 !important;
+        margin: 0 auto !important;
+        width: 100%;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    #slide-8-layer-1 {
+        font-size: 28px !important;
+        line-height: 33px !important;
+    }
+
+    #slide-8-layer-1 span {
+        font-size: 35px !important;
+    }
+
+    .main_nav img {
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+
+    .sc_services_item_content, .sc_services_item_button {
+        display: block !important;
+    }
+
+    .sc_services_item_subtitle {
+        font-size: 30px !important;
+    }
+    
+    .tp-mask-wrap {
+        position: relative !important;
+    }
+
+    .sc_services_default .sc_services_item {
+        min-height: inherit !important;
+    }
+
+    .copyright_text {
+        text-align: center;
+    }
+
+    .customBannerWeb {
+        display: none !important;
+    }
+
+    .socials_footer_wrap_inner p {
+        text-align: center;
+    }
+
+    .socials_footer_wrap_inner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: 70px;
+    }
+
+    .copyright_wrap_inner {
+        padding: 0;
+    }
+
+    .tp-caption.slider1-button.rev-btn.noSwipe.rs-hover-ready {
+        display: block !important;
+        margin-top: 20px !important;
+    }
+
+    .trx_addons_icon-instagram {
+        font-size: 30px;
+        margin-top: 10px;
+    }
+
+    .bgptc.wpb_column.vc_column_container.vc_col-sm-6.vc_col-has-fill {
+        display: none !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .customBannerMobile {
+        display: none;
+    }
+
+    .customBannerWeb {
+        display: block;
+    }
+}
